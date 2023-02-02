@@ -175,7 +175,7 @@ What a developer platform?
 Empowering a developer with self service APIs.
 Book: The New Kingmakers.
 
-<image>
+![Developer Platform](images/devplatform.png)
 
 What do developers need.
 Self driven autonomy.

@@ -24,7 +24,7 @@ Cloud deployments are concerned with startup time and mem footprint.
 Spring AOT processing is one solution to move steps from runtime to compile time.
 Feels like Micronaut and we should check this out.
 AOT processed spring apps can be turned into native images.
-Project Leyden, spec fpr well-defined static image variants (from openJDK initiative).
+Project Leyden, spec for well-defined static image variants (from openJDK initiative).
 Project CRaC (Coordinated Restore at Checkpoint) warmed-up HotSpot JVM snapshot. (also openJDK project)
 Virtual threads with project loom.
 Virtual Threads are attached to a platform threads, when ever it blocks it's detached from the carrier thread.
@@ -44,7 +44,7 @@ It not a silver bullet.
 There are downsides.
 Recommended: low memory & cpu, scale to zero, serverless.
 Assess: Microservices, backoffice, container images distribution, K8s
-JVM Better: very frequent deployments, hight traffic website, agent-based obervability, unsupported dependencies, big monolith, huge mem & cpu.
+JVM Better: very frequent deployments, high traffic website, agent-based obervability, unsupported dependencies, big monolith, huge mem & cpu.
 Graal is working on improving speak performance & throughput.
 
 How to get there?
@@ -85,7 +85,7 @@ Global delivery prediction platform.
 3 tier machine learning model with spring.
 Huge data load in the fedex system.
 
-<image>
+![FedEx GDDP](images/gddp.png)
 
 Goal was to improve visibility to the customers (shipper and recipient).
 
@@ -145,7 +145,7 @@ Still there, but placed in a legacy package.
 RxJava1 and 2 support support removed, switch to rxjava 3 or reactor.
 Javax is gone, so use jakarta namespace.
 
-<image>
+![Helpers for migrations](images/jakarta.png)
 
 There is a spring migrator to handle this as well.
 Extended support period for the 2.x line Nov 2023.
